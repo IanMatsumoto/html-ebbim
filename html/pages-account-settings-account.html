@@ -27,7 +27,7 @@
       content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
     />
 
-    <title>Account settings - Account | Sneat - Bootstrap 5 HTML Admin Template - Pro</title>
+    <title>Configurações da conta</title>
 
     <meta name="description" content="" />
 
@@ -127,7 +127,7 @@
                   </g>
                 </svg>
               </span>
-              <span class="app-brand-text demo menu-text fw-bolder ms-2">Sneat</span>
+              <span class="app-brand-text demo menu-text fw-bolder ms-2">EBBIM</span>
             </a>
 
             <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
@@ -575,32 +575,32 @@
             <!-- Content -->
 
             <div class="container-xxl flex-grow-1 container-p-y">
-              <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Account Settings /</span> Account</h4>
+              <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Configurações da conta /</span> Conta</h4>
 
               <div class="row">
                 <div class="col-md-12">
                   <ul class="nav nav-pills flex-column flex-md-row mb-3">
                     <li class="nav-item">
-                      <a class="nav-link active" href="javascript:void(0);"><i class="bx bx-user me-1"></i> Account</a>
+                      <a class="nav-link active" href="javascript:void(0);"><i class="bx bx-user me-1"></i> Conta</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="pages-account-settings-notifications.html"
-                        ><i class="bx bx-bell me-1"></i> Notifications</a
+                        ><i class="bx bx-bell me-1"></i> Notificações</a
                       >
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="pages-account-settings-connections.html"
-                        ><i class="bx bx-link-alt me-1"></i> Connections</a
+                        ><i class="bx bx-link-alt me-1"></i> Conexões</a
                       >
                     </li>
                   </ul>
                   <div class="card mb-4">
-                    <h5 class="card-header">Profile Details</h5>
+                    <h5 class="card-header">Detalhes da conta</h5>
                     <!-- Account -->
                     <div class="card-body">
                       <div class="d-flex align-items-start align-items-sm-center gap-4">
                         <img
-                          src="../assets/img/avatars/1.png"
+                          src="../assets/img/avatars/2.png"
                           alt="user-avatar"
                           class="d-block rounded"
                           height="100"
@@ -633,19 +633,19 @@
                       <form id="formAccountSettings" method="POST" onsubmit="return false">
                         <div class="row">
                           <div class="mb-3 col-md-6">
-                            <label for="firstName" class="form-label">First Name</label>
+                            <label for="firstName" class="form-label">Nome</label>
                             <input
                               class="form-control"
                               type="text"
                               id="firstName"
                               name="firstName"
-                              value="John"
+                              value="Ian"
                               autofocus
                             />
                           </div>
                           <div class="mb-3 col-md-6">
-                            <label for="lastName" class="form-label">Last Name</label>
-                            <input class="form-control" type="text" name="lastName" id="lastName" value="Doe" />
+                            <label for="lastName" class="form-label">Sobrenome</label>
+                            <input class="form-control" type="text" name="lastName" id="lastName" value="Matsumoto" />
                           </div>
                           <div class="mb-3 col-md-6">
                             <label for="email" class="form-label">E-mail</label>
@@ -654,7 +654,7 @@
                               type="text"
                               id="email"
                               name="email"
-                              value="john.doe@example.com"
+                              value="ian.matsumoto@gmail.com"
                               placeholder="john.doe@example.com"
                             />
                           </div>
@@ -664,14 +664,14 @@
                               type="text"
                               class="form-control"
                               id="organization"
-                              name="organization"
+                              name="TI Lab"
                               value="ThemeSelection"
                             />
                           </div>
                           <div class="mb-3 col-md-6">
-                            <label class="form-label" for="phoneNumber">Phone Number</label>
+                            <label class="form-label" for="phoneNumber">Telefone</label>
                             <div class="input-group input-group-merge">
-                              <span class="input-group-text">US (+1)</span>
+                              <span class="input-group-text">BR (+55)</span>
                               <input
                                 type="text"
                                 id="phoneNumber"
@@ -681,16 +681,29 @@
                               />
                             </div>
                           </div>
+						  <div class="mb-3 col-md-6">
+                            <label class="form-label-CRIADO" for="phoneNumber">Celular</label>
+                            <div class="input-group input-group-merge">
+                              <span class="input-group-text">BR (+55)</span>
+                              <input
+                                type="text"
+                                id="celNumber"
+                                name="celNumber"
+                                class="form-control"
+                                placeholder="202 555 0111"
+                              />
+                            </div>
+                          </div>
                           <div class="mb-3 col-md-6">
-                            <label for="address" class="form-label">Address</label>
+                            <label for="address" class="form-label">Endereço</label>
                             <input type="text" class="form-control" id="address" name="address" placeholder="Address" />
                           </div>
                           <div class="mb-3 col-md-6">
-                            <label for="state" class="form-label">State</label>
+                            <label for="state" class="form-label">Estado</label>
                             <input class="form-control" type="text" id="state" name="state" placeholder="California" />
                           </div>
                           <div class="mb-3 col-md-6">
-                            <label for="zipCode" class="form-label">Zip Code</label>
+                            <label for="zipCode" class="form-label">CEP</label>
                             <input
                               type="text"
                               class="form-control"
@@ -701,7 +714,7 @@
                             />
                           </div>
                           <div class="mb-3 col-md-6">
-                            <label class="form-label" for="country">Country</label>
+                            <label class="form-label" for="country">País</label>
                             <select id="country" class="select2 form-select">
                               <option value="">Select</option>
                               <option value="Australia">Australia</option>
@@ -731,7 +744,7 @@
                             </select>
                           </div>
                           <div class="mb-3 col-md-6">
-                            <label for="language" class="form-label">Language</label>
+                            <label for="language" class="form-label">Idioma</label>
                             <select id="language" class="select2 form-select">
                               <option value="">Select Language</option>
                               <option value="en">English</option>
